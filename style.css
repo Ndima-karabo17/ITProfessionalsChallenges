@@ -1,0 +1,84 @@
+@media screen and (max-width:800px) {
+body{
+    background-color:rgb(40, 20, 36);
+
+}
+}
+html{
+    background-color:rgba(169, 169, 169, 0.973);
+}
+body{
+    width:100%;
+    height:100%;
+   font-family: 'Baskervville', serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
+    
+}
+h1{
+    font-family: sans-serif;
+    font-size:xx-large;
+   text-align: center;
+}
+#list-challanges{
+    display:inline-block;
+}
+.skill-gap{
+font-family:  Helvetica, sans-serif;
+display:inline-block;
+   width: 300px;
+}
+li{
+    font-family:Arial, sans-serif;
+    font-weight: bold;
+    
+}
+img {
+    width:150px;
+    height:150px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 16px;
+margin: 0 auto;
+padding: 20px 10px;
+}
+.read-more{
+    color:chartreuse;
+    background-color: black;
+    border-radius: 0.5rem ;
+    border: 0.1px solid gray;
+cursor: pointer;
+}
+.read-more:hover{
+    color: black;
+    background-color: white;
+}
+.read-more:active{
+    color:chartreuse;
+    background-color: black;
+    border-radius: 0.5rem ;
+    border: 0.1px solid gray;
+}
+#tired{
+    width: 250px;
+    height: 200px;
+}
+.msg{
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(169, 169, 169, 0.773);
+}
+p{
+     text-align: center;
+}
+div{
+    float: left;
+}
+#solution-strat{
+    color:black;
+    font-style: oblique;
+    font-weight: bolder;
+}
