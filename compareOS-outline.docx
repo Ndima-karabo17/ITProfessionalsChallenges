@@ -1,0 +1,69 @@
+COMPARISON BETWEEN WINDOWS, MACOS AND LINUX
+
+WHAT IS AN OPERATING SYSTEM ?
+An operating sytem is an interface between a computer user and computer hardware.
+It performs all the basics tasks like file management, memory management, process management, handling input, output
+and controlling peripheral devices such as disk drives and printers.
+
+How does each OS organize files and folders?
+
+1. Windows
+- It orgainizes files and folders in a hierarchical e.g C:/ndima mhangwani/Desktop
+
+2. MacOS 
+-It orginizes files and folders using Finder, its native file management system.
+
+3.LINUX
+- It follows a hierarchical file system more like windows but in linux we use commands this means it orginizes files and directories in a tree-like structure.
+
+How are files paths written?
+
+1.Linux- it is as string that specifies the location of a file and directory e.g C:\Users\ndima mhangwani
+
+2.Windows- it is using same as linux and using backslashes to separate between directories e.g C:\Users\ndima mhangwani\Documents\Mlab
+
+3.MacOS - it uses forward slashes to separate directory levels e.g C:/Users/ndima mhangwani/Documents/Mlab
+
+NAMING CONVENTIONS 
+
+Are names case-sensitive?
+
+1.Windows - No, they aren't case-sensitive.
+2.Linux - Yes, they are case-sensitive for example Mlab is not the same as mlab in linux
+3.MacOS - No, they aren't case-sensitive.
+
+Are there naming restriction?
+
+Yes, for windows name cannot be more than 260 characters and special characters like * is not allowed when creatin a file.
+For Linux and MacOS the rules are the same for restriction you can have most characters as long you don't include a forward slash(/) and the null character.
+
+FILE SYSTEM
+
+What file systems are used?
+
+In windows we use NTFS as its main file system, MacOS uses Apple File System for newer version but for old is HFS+ and Linux utilizes a variety of file systems with ext4 which is most common
+along with XFS, JFS.
+
+Mention FAT specifically, where is it still used?
+
+Although Windows 10 and 11 still support FAT, they use NTFS by default, and Reefs to a lesser extent.
+Although the FAT system has been superseded on most Windows computers,
+current Windows editions still support FAT, as do macOS, Linux and Unix. In
+addition, FAT is still used for floppy disks, USB flash drives and storage media in
+smaller, portable devices such as digital cameras.
+
+EXECUTABLE FILE TYPES
+List and describe the file types used to run programs in each OS.
+
+1.Dynamic Link Libraries (Windows) or Callable shared objects (UNIX)
+A dynamic link library (Windows) or a callable shared object (UNIX) can
+contain more than one COBOL program and can also contain other language
+programs, such as C and C++. Dynamic link libraries (Windows) or callable
+shared objects (UNIX) can also be linked with third party object files or
+shared libraries. This behaviour is similar to system executables and shared
+libraries but differs from .int and .gnat files, where each file corresponds to a
+single COBOL program.
+
+Script Execution
+How does each OS run command or scrip files?
+

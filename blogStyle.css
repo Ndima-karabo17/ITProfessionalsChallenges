@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(31, 4, 56);
+color:white;
+}
+.organizeFiles{
+    display: inline-flex;
+  
+
+}
+.files{
+    width:400px;
+      height: 10px;
+}
+section{
+    font-size: larger;
+    font-weight: 100px;;
+}
+p,h1,h2{
+    text-align: center;
+}
