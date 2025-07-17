@@ -1,68 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8" />
-        <title>COMPARISON BETWEEN WINDOWS, MACOS AND LINUX</title>
-    <link href="blogStyle.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <h1>COMPARISON BETWEEN WINDOWS, MacOS AND LINUX</h1>
-        <h2 class="msg"><strong>How does each OS organize files and folders?</strong></h2>
-        <p>An operating sytem is an interface between a computer user and computer hardware.<br>
-    It performs all the basics tasks like file management,<br> memory management, process management, handling input, output
-    and controlling <br>peripheral devices such as disk drives and printers.
-    </p>
-    <div class="organizeFiles">
-       <div class="files">
-         <section>How does each OS organize files and folders?</section>
-       <p>
-        1. Windows
-    - It orgainizes files and folders in a hierarchical e.g C:/ndima mhangwani/Desktop
-<br>
-2. MacOS 
--It orginizes files and folders using Finder, its native file management system.
-<br>
-3.LINUX
-- It follows a hierarchical file system more like windows but in linux we use commands this means it orginizes files and directories in a tree-like structure.
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link href="blogStyle.css" rel="stylesheet" />
+    <title>COMPARING OS</title>
+</head>
 
-       </p>
-       </div>
-       <div class="path">
-       <section> How are files paths written?</section>
+<body>
+    <h1>COMPARISON BETWEEN WINDOWS, MacOS AND LINUX</h1>
 
-<p>
-    1.Linux- it is as string that specifies the location of a file and directory e.g C:\Users\ndima mhangwani
-<br>
-2.Windows- it is using same as linux and using backslashes to separate between directories e.g C:\Users\ndima mhangwani\Documents\Mlab
-<br>
-3.MacOS - it uses forward slashes to separate directory levels e.g C:/Users/ndima mhangwani/Documents/Mlab
+    <h2>WHAT IS AN OPERATING SYSTEM ?</h2>
+    <p class="first">An operating sytem is an interface between a computer user and computer hardware.
+        It performs all the basics tasks like file management, memory management, process management, handling input,
+        output
+        and controlling peripheral devices such as disk drives and printers.</p>
 
-</p>
-       </div>
-       <div class="naming">
-        <section>Are there naming restriction?</section>
-        <p>Yes, for windows name cannot be more than 260 characters and special characters like * is not allowed when creatin a file.
-For Linux and MacOS the rules are the same for restriction you can have most characters as long you don't include a forward slash(/) and the null character.
-</p>
-       </div>
-<div class="fileUsed">
-        <section>What file systems are used?</section>
-        <p>In windows we use NTFS as its main file system, MacOS uses Apple File System for newer version but for old is HFS+ and Linux utilizes a variety of file systems with ext4 which is most common
-along with XFS, JFS.</p>
-       </div>
-       <div class="mention">
-        <section>Mention FAT specifically, where is it still used?</section>
-        <p>Although Windows 10 and 11 still support FAT, they use NTFS by default, and Reefs to a lesser extent.
+    <div class="biggerDiv">
+        <div class="first-div me">
+            <fieldset>
+                <legend>How does each OS organize files and folders?</legend>
+                1. Windows
+                - It orgainizes files and folders in a hierarchical e.g C:/ndima mhangwani/Desktop
+                <br>
+                2. MacOS
+                -It orginizes files and folders using Finder, its native file management system.
+                <br>
+                3.LINUX
+                - It follows a hierarchical file system more like windows but in linux we use commands this means it
+                orginizes files and directories in a tree-like structure.
+
+            </fieldset>
+        </div>
+        <div class="second-div me">
+            <fieldset>
+                <legend>How are files paths written?</legend>
+                1.Linux- it is as string that specifies the location of a file and directory e.g C:\Users\ndima
+                mhangwani
+                <br>
+                2.Windows- it is using same as linux and using backslashes to separate between directories e.g
+                C:\Users\ndima mhangwani\Documents\Mlab
+                <br>
+                3.MacOS - it uses forward slashes to separate directory levels e.g C:/Users/ndima
+                mhangwani/Documents/Mlab
+
+            </fieldset>
+        </div>
+        <div class="third-div me">
+            <fieldset>
+                <legend>Are names case-sensitive?</legend>
+                1.Windows - No, they aren't case-sensitive. <br>
+                2.Linux - Yes, they are case-sensitive for example Mlab is not the same as mlab in linux
+                <br>
+                3.MacOS - No, they aren't case-sensitive.
+            </fieldset>
+        </div>
+        <div class="fourth-div me">
+            <fieldset>
+                <legend>What file systems are used?</legend>
+                In windows we use NTFS as its main file system, MacOS uses Apple File System<br> for newer version but
+                for old is HFS+ and Linux utilizes a variety of file systems<br> with ext4 which is most common
+                along with XFS, JFS.
+            </fieldset>
+        </div>
+        <div class="fifth-div me">
+            <fieldset>
+                <legend>Are there naming restriction?</legend>
+                Yes, for windows name cannot be more than 260 characters and special characters like<br> '*' is not
+                allowed
+                when creatin a file.
+                For Linux and MacOS the rules are the same for <br>restriction you can have most characters as long you
+                don't include a forward slash(/) and the null character.
+            </fieldset>
+        </div>
+    </div>
+<div class="big">
+    <div class="bb">
+       <strong> Mention FAT specifically, where is it still used?</strong>
+
+Although Windows 10 and 11 still support FAT, they use NTFS by default, and Reefs to a lesser extent.
 Although the FAT system has been superseded on most Windows computers,
 current Windows editions still support FAT, as do macOS, Linux and Unix. In
 addition, FAT is still used for floppy disks, USB flash drives and storage media in
 smaller, portable devices such as digital cameras.
-</p>
-       </div>
+
     </div>
-    <a href="index.html">Index</a>
-    </body>
-    
+    <div class="bb">
+       <strong> List and describe the file types used to run programs in each OS.</strong>
+1.Dynamic Link Libraries (Windows) or Callable shared objects (UNIX)
+A dynamic link library (Windows) or a callable shared object (UNIX) can
+contain more than one COBOL program and can also contain other language
+programs, such as C and C++. Dynamic link libraries (Windows) or callable
+shared objects (UNIX) can also be linked with third party object files or
+shared libraries. This behaviour is similar to system executables and shared
+libraries but differs from .int and .gnat files, where each file corresponds to a
+single COBOL program.
+    </div>
+</div>
+</body>
+
 </html>
