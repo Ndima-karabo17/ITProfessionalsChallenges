@@ -1,20 +1,42 @@
 body{
-    background-color: rgb(31, 4, 56);
-color:white;
+    background-color: rgb(219, 28, 187);
+    color: black;
 }
-.organizeFiles{
-    display: inline-flex;
-  
-
-}
-.files{
-    width:400px;
-      height: 10px;
-}
-section{
-    font-size: larger;
-    font-weight: 100px;;
-}
-p,h1,h2{
+.first{
     text-align: center;
+    text-decoration: none;
+    width:500px;
+    height:50px;
+    margin-left: 100px;
+    font-size: large;
+    padding-bottom: 39px;
+    
+}
+h1, h2{
+    margin-left: 100px; 
+  font-style: italic;
+}
+.biggerDiv{
+    display: flex;
+    width: 1000px;
+    padding-bottom: 50px;
+}
+
+fieldset{
+    text-align: start;
+    height:400px;
+   width:190px;
+   color:rgb(232, 214, 17);
+}
+.me{
+    width:600px;
+   
+}
+.big{
+    display: flex;
+    width:100%;
+   
+}
+.bb{
+    width: 30%;
 }
