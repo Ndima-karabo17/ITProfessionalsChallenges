@@ -15,7 +15,7 @@ html, body {
   overflow-x: hidden; 
 }
 @media (max-width: 768px) {
-  .dashboard-card {
+  body {
     width: 100vw;
   }
 }
