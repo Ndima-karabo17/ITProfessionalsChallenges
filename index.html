@@ -1,64 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="style.css" rel="stylesheet"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8" />
-        <title>Challenges faced by IT professionals in Africa</title>
-    </head>
-    <body>
-        <h1>CHALLENGES FACED BY IT PROFESSIONALS IN AFRICA</h1>
-        <img src="media\tired.jpeg" alt="A guy who is tired" id ="tired"/>
-        <p class="msg"><strong>IT professionals in Africa faced the following challenges:</strong></p>
+
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Challenges faced by IT professionals in Africa</title>
+</head>
+
+<body>
+    <div class="topic">
+        <div class="first-topic">
+            <h1>CHALLENGES FACED BY IT PROFESSIONALS IN AFRICA</h1>
+        </div>
+        <div class="topic-image"> <img src="media\tired.jpeg" alt="A guy who is tired" id="tired" /></div>
+    </div>
+    <p class="msg"><strong>IT professionals in Africa faced the following challenges:</strong></p>
     <ul id="list-challanges">
         <div>
-        <li>Skills Gaps</li>
-        <p class="skill-gap">A skill gap is when an IT profession does not have </p>
+            <li>Skills Gaps</li>
+            <p class="skill-gap">IT Skill Gap refers to the mismatch between the skills that employers need or demand
+                in the IT sector and the skills that are currently available in the market.</p>
         </div>
         <div>
-        <li>Digital Transforming</li>
-        <p class="skill-gap">A digital Transforming when everything is changing for example when we are no longer using traditional way.</p>
-       </div>
-       <div><li>Cloud Computing</li>
-        <p class="skill-gap">A cloud computing it is where most IT money is going, but there aren't enough skilled cloud professionals to match that investment.</p>
-      </div> 
-      <div>
-        <li>Project Management</li>
-        <p class="skill-gap">A project Management is when you are planning a task and make sure it is completed within a budget, time and resources.</p>
+            <li>Digital Transforming</li>
+            <p class="skill-gap">A digital Transforming when everything is changing for example when we are no longer
+                using traditional way.</p>
         </div>
         <div>
-        <li>Career Growth</li>
-        <p class="skill-gap">A career Growth in IT professional is when they change to do better or grow in the career by developing new skills in that profession. </p>
-       </div> 
-       <div>
-        <li>CyberSecurity</li>
-        <p class="skill-gap">Cyberattacks are growing in size and sophistication and Millions of cybersecurity jobs remain unfilled</p>
-       </div>
-       <div>
-        <li> Hiring</li>
-        <p class="skill-gap">Talent recruitment and retention is a major challenge for IT leaders—50% are currently struggling in the area. Only seven percent of IT decision-makers say that hiring has been easy.</p>
+            <li>Cloud Computing</li>
+            <p class="skill-gap">A cloud computing it is where most IT money is going, but there aren't enough skilled
+                cloud professionals to match that investment.</p>
         </div>
         <div>
-        <li>Budget</li>
-        <p class="skill-gap">A lack of budget and resources is another major concern for both IT staff and decision-makers. The open-field sections of our IT Skills and Salary Survey are littered with criticisms about budget constraints</p>
-       </div>
+            <li>Project Management</li>
+            <p class="skill-gap">A project Management is when you are planning a task and make sure it is completed
+                within a budget, time and resources.</p>
+        </div>
         <div>
-        <li>Analytics And data Management</li>
-        <p class="skill-gap">Organizations need analysts and critical thinkers to create a culture of information, enabling data-driven decisions to inform almost all business activities.</p>
-   </div>
+            <li>Career Growth</li>
+            <p class="skill-gap">A career Growth in IT professional is when they change to do better or grow in the
+                career by developing new skills in that profession. </p>
+        </div>
+        <div>
+            <li>CyberSecurity</li>
+            <p class="skill-gap">Cyberattacks are growing in size and sophistication and Millions of cybersecurity jobs
+                remain unfilled</p>
+        </div>
+        <div>
+            <li> Hiring</li>
+            <p class="skill-gap">Talent recruitment and retention is a major challenge for IT leaders—50% are currently
+                struggling in the area. Only seven percent of IT decision-makers say that hiring has been easy.</p>
+        </div>
+        <div>
+            <li>Budget</li>
+            <p class="skill-gap">A lack of budget and resources is another major concern for both IT staff and
+                decision-makers. The open-field sections of our IT Skills and Salary Survey are littered with criticisms
+                about budget constraints</p>
+        </div>
+        <div>
+            <li>Analytics And data Management</li>
+            <p class="skill-gap">Organizations need analysts and critical thinkers to create a culture of information,
+                enabling data-driven decisions to inform almost all business activities.</p>
+        </div>
     </ul>
-    <button class="read-more" onclick="SeeLess()">READ LESS...</button>
-    <div id="see-more">
-        <div id="first-div">
-        <div id="overwhelmed">Staff and managers are overwhelmed by work</div>
-         <img src="media/overwhelmed.jpg" alt="A picture of a lady who is overwhelmedby a work"/>
-        <div id="solution-strat">Solution strategy, oversight and automation tools</div>
-        <img src="media\solution.png" alt="A picture of solution strategy"/>
-       
-        </div>
-       </div>
+    <button class="read-more" onclick="SeeLess(event)">SEE LESS...</button>
+
+<div id="see-more">
+  <div id="first-div">
+    <div id="overwhelmed">Staff and managers are overwhelmed by work</div>
+    <img src="media/overwhelmed.jpg" alt="A picture of a lady who is overwhelmed by work" />
+    <div id="solution-strat">Solution strategy, oversight and automation tools</div>
+    <img src="media/solution.png" alt="A picture of solution strategy" />
+  </div>
+</div>
+
+    <script src="script.js"></script>
     <button><a href="BlogPost.html">Blog Post</a></button>
-       <script src="script.js"></script>
-    </body>
-    
+</body>
+
 </html>
